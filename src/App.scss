@@ -1,0 +1,850 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*Badges --------------*/
+.readytoship {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 15.5px;
+  position: absolute;
+  left:695px; 
+  top:68px; 
+}
+
+.rtsbackground {
+  background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+  border-radius: 2px 0 0 2px;
+  width: 121px;
+  height: 27px;
+  position: absolute;
+  vertical-align: top;
+  left:683px;
+  top:64px;
+}
+
+.prodname {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 600;
+  width: 670px;
+  text-align: left;
+  position: absolute;
+  left:683px;
+  top:99px;
+}
+
+.prodimage {
+  color: #333333;
+  width: 555px;
+  height: 555px;
+  position: absolute;
+  left:96px;
+  top:64px;
+}
+
+/*InStock --------------*/
+.islbl {
+  color: #ff8432;
+  font-family: Roboto;
+  font-size: 15.5px;
+  position: absolute;
+  left:836px; 
+  top:68px; 
+}
+
+.isbackground {
+  background-color: #FFF0E6;
+  width: 100px;
+  height: 27px;
+  vertical-align: top;
+  position: absolute;
+  left:804px; /*602 */
+  top:64px;
+}
+
+.isokicon {
+  width: 15.5px;
+  height: 15.5px;
+  position: absolute;
+  left:813px;
+  top:69px;
+}
+
+/*FastDispatch --------------*/
+.fdlbl {
+  color: #ff8432;
+  font-family: Roboto;
+  font-size: 15.5px;
+  position: absolute;
+  left:936px; 
+  top:68px; 
+}
+
+.fdbackground {
+  background-color: #FFF0E6;
+  border-radius: 0 2px 2px 0;
+  width: 141px;
+  height: 27px;
+  vertical-align: top;
+  position: absolute;
+  left:904px; /*677 */
+  top:64px;
+}
+
+.fdokicon {
+  width: 15.5px;
+  height: 15.5px;
+  position: absolute;
+  left:913px;
+  top:69px;
+}
+
+/*HotSaleProducts --------------*/
+.hsplbl {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 15.5px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:1061px;
+  top:139px;
+}
+
+.hspbackground {
+  background-color: #EDF0F3;
+  border-radius: 2px;
+  width: 148px;
+  height: 27px;
+  vertical-align: top;
+  position: absolute;
+  left:1049px;
+  top:133px;
+}
+
+/*RatingsBox --------------*/
+.rating {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:805px;
+  top:185px;
+}
+
+.reviews {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  left:834px;
+  top:185px;
+}
+
+.buyers {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:936px;
+  top:185px;
+}
+
+.star1icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left:683px;
+  top:183px;
+}
+
+.star2icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left:707px;
+  top:183px;
+}
+
+.star3icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left:731px;
+  top:183px;
+}
+
+.star4icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left:755px;
+  top:183px;
+}
+
+.star5icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left:779px;
+  top:183px;
+}
+
+/*PriceBox --------------*/
+.price {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  position: absolute;
+  left:683px;
+  top:242px;
+}
+
+.oldprice {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18px;
+  text-decoration: line-through;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:683px;
+  top:271px;
+}
+
+.option1 {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.4px;
+  text-align: left;
+  position: absolute;
+  left:879px;
+  top:241px;
+}
+
+.optionsnum {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:962px;
+  top:244px;
+}
+
+.minorder {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.4px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:1047px;
+  top:243px;
+}
+
+.line1 {
+  color: #EDF0F3;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:951px;
+  top:244px;
+}
+
+.pbbackground {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+  width: 701px;
+  height: 85px;
+  position: absolute;
+  left:683px;
+  top:219px;
+}
+
+/*MarchExpo --------------*/
+.melogo {
+  width: 103px;
+  height: 53px;
+  position: absolute;
+  left:683px;
+  top:320px;
+}
+
+.freeshipping {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 18.5px;
+  text-align: left;
+  position: absolute;
+  left:821px;
+  top:335px;
+}
+
+.ontimedelivery {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 18.5px;
+  text-align: left;
+  position: absolute;
+  left:1075px;
+  top:335px;
+}
+
+.arrowicon {
+  width: 13px;
+  height: 19px;
+  position: absolute;
+  left:1351px;
+  top:338px;
+}
+
+.mebackground {
+  background-color: #FFF0E6;
+  width: 701px;
+  height: 54px;
+  position: absolute;
+  vertical-align: top;
+  left:683px;
+  top:320px;
+}
+
+/*DiscountTimer --------------*/
+.discount {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:683px;
+  top:415px;
+}
+
+.discountends {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  position: absolute;
+  left:763px;
+  top:411px;
+}
+
+.discountclock {
+  width: 21.5px;
+  height: 21.5px;
+  position: absolute;
+  left:932px;
+  top:411px;
+}
+
+.discountendstimer {
+  color: #999999;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 21px;
+  text-align: left;
+  position: absolute;
+  left:970px;
+  top:409px;
+}
+
+/*ProdOptions --------------*/
+.prodoptionslbl {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  position: absolute;
+  left:683px;
+  top:489px;
+}
+
+.prodoptions1 {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 18.5px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+  position: absolute;
+  left:833px;
+  top:493px;
+}
+
+.prodoptions1price {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 18.5px;
+  line-height: 16px; 
+  text-align: left;
+  position: absolute;
+  left:1065px;
+  top:493px;
+}
+
+.prodoptions2 {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 18.5px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+  position: absolute;
+  left:833px;
+  top:559px;
+}
+
+.prodoptions2price {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 18.5px;
+  line-height: 16px; 
+  text-align: left;
+  position: absolute;
+  left:1065px;
+  top:559px;
+}
+
+.prodoptions3 {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 18.5px;
+  line-height: 16px;
+  width: 180px;
+  text-align: left;
+  position: absolute;
+  left:833px;
+  top:628px;
+}
+
+.prodoptions3price {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 18.5px;
+  line-height: 16px; 
+  text-align: left;
+  position: absolute;
+  left:1065px;
+  top:628px;
+}
+
+.minusoptions1 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left:1171px;
+  top:470px;
+}
+
+.minusoptions2 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left:1171px;
+  top:539px;
+}
+
+.minusoptions3 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left:1171px;
+  top:608px;
+}
+
+.minusoptions1icon {
+  width: 18px;
+  height: 3px;
+  position: absolute;
+  left:1189px;
+  top:496px;
+}
+
+.minusoptions2icon {
+  width: 18px;
+  height: 3px;
+  position: absolute;
+  left:1189px;
+  top:566px;
+}
+
+.minusoptions3icon {
+  width: 18px;
+  height: 3px;
+  position: absolute;
+  left:1189px;
+  top:635px;
+}
+
+.prodoptionsnum1 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 109px;
+  height: 53px;
+  position: absolute;
+  left:1224px;
+  top:470px;
+}
+
+.prodoptionsnum2 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 109px;
+  height: 53px;
+  position: absolute;
+  left:1224px;
+  top:539px;
+}
+
+.prodoptionsnum3 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 109px;
+  height: 53px;
+  position: absolute;
+  left:1224px;
+  top:608px;
+}
+
+.plusoptions1 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #FF6600;
+  border-radius: 0 2px 2px 0;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left:1333px;
+  top:470px;
+}
+
+.plusoptions2 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #FF6600;
+  border-radius: 0 2px 2px 0;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left:1333px;
+  top:539px;
+}
+
+.plusoptions3 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #FF6600;
+  border-radius: 0 2px 2px 0;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left:1333px;
+  top:608px;
+}
+
+.plusoptions1icon {
+  width: 17.5px;
+  height: 17.5px;
+  position: absolute;
+  left:1351px;
+  top:489px;
+}
+
+.plusoptions2icon {
+  width: 17.5px;
+  height: 17.5px;
+  position: absolute;
+  left:1351px;
+  top:558px;
+}
+
+.plusoptions3icon {
+  width: 17.5px;
+  height: 17.5px;
+  position: absolute;
+  left:1351px;
+  top:627px;
+}
+
+.productnum1 {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  position: absolute;
+  left:1273px;
+  top:487px;
+}
+
+.productnum2 {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  position: absolute;
+  left:1273px;
+  top:556px;
+}
+
+.productnum3 {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  position: absolute;
+  left:1273px;
+  top:625px;
+}
+
+/*TradeAssurance -------------- */
+.talogo {
+  width: 17px;
+  height: 19px;
+  position: absolute;
+  left:683px;
+  top:695px;
+}
+
+.talbl {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  line-height: 16px;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  left:707px;
+  top:698px;
+}
+
+.tainfo {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:850px;
+  top:698px;
+}
+
+/*Payments -------------- */
+.paymentslbl {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:683px;
+  top:735px;
+}
+
+.visa {
+  width: 30px;
+  height: 16px;
+  position: absolute;
+  left:759px;
+  top:734px;
+}
+
+.mastercard {
+  width: 30px;
+  height: 16px;
+  position: absolute;
+  left:787px;
+  top:734px;
+}
+
+.applepay {
+  width: 40px;
+  height: 21px;
+  position: absolute;
+  left:818px;
+  top:732px;
+}
+
+/*Links --------------*/
+.alibabalogistics {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:683px;
+  top:772px;
+}
+
+.inspectionsolutions {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  position: absolute;
+  left:874px;
+  top:772px;
+}
+
+/*AddToBox -------------- */
+.atbforeground {
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 8px;
+  width: 408px;
+  height: 342px;
+  position: absolute;
+  left:1416px;
+  top:63px;
+}
+
+.atbbackground {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  width: 408px;
+  height: 342px;
+  position: absolute;
+  left:1416px;
+  top:63px;
+}
+
+.shipto {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  text-decoration: underline;
+  width: 180px;
+  text-align: left;
+  position: absolute;
+  left:1449px;
+  top:103px;
+}
+
+.atbprice {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  font-weight:bold;
+  position: absolute;
+  left:1688px;
+  top:100px;
+}
+
+.leadtime {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  width: 180px;
+  position: absolute;
+  left:1449px;
+  top:162px;
+}
+
+.leadtimeinfo {
+  width: 18.5px;
+  height: 18.5px;
+  position: absolute;
+  left:1621px;
+  top:164px;
+}
+
+.shippingtime {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 18.5px;
+  position: absolute;
+  left:1449px;
+  top:199px;
+}
+
+.shippingtimeinfo {
+  width: 18.5px;
+  height: 18.5px;
+  position: absolute;
+  left:1665px;
+  top:201px;
+}
+
+.logintopurchase {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 18.5px;
+  width: 210px;
+  text-align: left;
+  position: absolute;
+  left:1545px;
+  top:267px;
+}
+
+.ltpbackground {
+  background-color: #FF6600;
+  border-radius: 30px;
+  width: 344px;
+  height: 53px;
+  position: absolute;
+  left:1448px;
+  top:251px;
+}
+
+.contactthesupplier {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 18.5px;
+  width: 210px;
+  font-weight: bolder;
+  text-align: left;
+  position: absolute;
+  left:1533px;
+  top:336px;
+}
+
+.ctsicon {
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  left:1496px;
+  top:340px;
+}
+
+.ctsforeground {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #FF6600;
+  border-radius: 30px;
+  width: 340px;
+  height: 51px;
+  position: absolute;
+  left:1448px;
+  top:320px;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
